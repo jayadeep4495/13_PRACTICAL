@@ -4,7 +4,7 @@
  */
 
 // Read base URL from Vite environment variables (fallback to localhost:5000/api if unset)
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://awt-p13.onrender.com/api';
 
 /**
  * Helper to process Fetch response and parse errors cleanly
